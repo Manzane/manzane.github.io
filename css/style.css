@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,400&family=Varela+Round&display=swap');
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/flexbox.css");
+@import url("components/section.css");
+@import url("components/avatar.css");
+@import url("components/footer.css");
+@import url("components/navbar.css");
+
+body {
+  background-color: rgba(200,200,200,0.3);
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0,0,0,0.8);
+  font-size: 1em;
+}
+
+
+h1, h2 {
+
+  font-family: 'Valera Round', cursive;
+  /*font-weight: bold;*/
+
+}
+
+h1 {
+  color: #98B63A;
+  font-size: 2.5em;
+
+
+}
+
+h2 {
+  color: #354370;
+  font-size: 2em;
+  margin: 0;
+}
+
+h2#description {
+ font-size: 1em;
+ font-weight: bold;
+ color: rgba(0,0,0,0.8);
+
+}
+
+
+a {
+  color: #354370;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: none;
+
+}
+
+
+
+.card-white {
+  background-color: rgba(250,250,250,0.9);
+  padding: 2% 4% 2% 4%;
+  margin: 10px auto;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+
+}
+
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+
+#first-block {
+  display: flex;
+}
+
+#description {
+  display: flex;
+  flex-direction: column;
+}
+
