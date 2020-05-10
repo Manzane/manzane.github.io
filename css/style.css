@@ -2,13 +2,14 @@
 @import url("components/container.css");
 @import url("components/banner.css");
 @import url("components/flexbox.css");
+@import url("components/block.css");
 @import url("components/section.css");
 @import url("components/avatar.css");
 @import url("components/footer.css");
 @import url("components/navbar.css");
 
 body {
-  background-color: rgba(200,200,200,0.3);
+  background-color: rgba(200,200,200,0.2);
   font-family: 'Montserrat', sans-serif;
   color: rgba(0,0,0,0.8);
   font-size: 1em;
@@ -17,7 +18,7 @@ body {
 
 h1, h2 {
 
-  font-family: 'Valera Round', cursive;
+  font-family: 'Varela Round', sans-serif;
   /*font-weight: bold;*/
 
 }
@@ -33,6 +34,7 @@ h2 {
   color: #354370;
   font-size: 2em;
   margin: 0;
+  text-align: left;
 }
 
 h2#description {
@@ -78,12 +80,12 @@ a:hover {
 
 
 
-#first-block {
+/*#first-block {
   display: flex;
 }
 
 #description {
   display: flex;
   flex-direction: column;
-}
+}*/
 

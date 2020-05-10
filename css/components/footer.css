@@ -1,19 +1,20 @@
-.footer h2 {
-  color: white;
-
-}
-.footer {
-  background-color: #98B63A;
+footer {
+  background-color: #227C9D;
   color: white;
    margin: 5px auto;
    padding: 5px;
 
 }
 
-.footer a{
+footer a{
   color: white;
   font-size: 2em;
 }
-.footer h2{
+
+footer h2{
   font-size: 1.5em;
+}
+
+footer p {
+  text-align: center;
 }

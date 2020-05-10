@@ -1,7 +1,21 @@
 .flexbox {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  /*overflow: hidden*/
+  overflow: hidden
+}
+
+
+.flexbox-intro {
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+
+
+}
+
+.flexbox-core {
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 
 }

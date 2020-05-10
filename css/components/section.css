@@ -1,22 +1,29 @@
-#intro{
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#intro {
   width: 65%;
 }
 
-#core-competences{
+#core-competences {
 
 }
-#experiences{
+
+#experiences {
+
 
 }
-#education{
+#education {
 
 }
-#skills{
+#skills {
 
 }
-#about-me{
+#about-me {
 
 }
-#interests{
+#interests {
 
 }
