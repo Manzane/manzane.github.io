@@ -11,7 +11,7 @@
 nav.white {
   background: white;
   height: 70px;
-  z-index: 2;
+  /*z-index: 2;*/
   border-bottom: 1px solid #cecece;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
