@@ -11,7 +11,7 @@
 nav.white {
   background: white;
   height: 60px;
-  /*z-index: 2;*/
+  z-index: 1;
   border-bottom: 1px solid #cecece;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
@@ -133,7 +133,7 @@ nav.white ul li a:hover {
     left: 0;
     padding: 5px 20px;
     box-sizing: border-box;
-    z-index: 1;
+    z-index: 2;
   }
 
   .responsive-bar .logo img {
@@ -149,6 +149,7 @@ nav.white ul li a:hover {
     padding: 0;
     line-height: 50px;
     cursor: pointer;
+    /*z-index: auto;*/
     /*text-transform: uppercase;*/
   }
 
@@ -157,6 +158,7 @@ nav.white ul li a:hover {
     background: #fff;
     height: 60px;
     padding: 0;
+
   }
 
   nav.logo {
