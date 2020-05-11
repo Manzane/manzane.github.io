@@ -5,6 +5,7 @@
 @import url("components/block.css");
 @import url("components/section.css");
 @import url("components/avatar.css");
+@import url("components/card.css");
 @import url("components/footer.css");
 @import url("components/navbar.css");
 
@@ -17,17 +18,13 @@ body {
 
 
 h1, h2 {
-
   font-family: 'Varela Round', sans-serif;
   /*font-weight: bold;*/
-
 }
 
 h1 {
   color: #98B63A;
   font-size: 2.5em;
-
-
 }
 
 h2 {
@@ -35,25 +32,23 @@ h2 {
   font-size: 2em;
   margin: 0;
   text-align: left;
+  padding-bottom: 20px;
 }
 
 h2#description {
  font-size: 1em;
  font-weight: bold;
  color: rgba(0,0,0,0.8);
-
 }
 
 
 a {
   color: #354370;
   text-decoration: none;
-
 }
 
 a:hover {
   text-decoration: none;
-
 }
 
 
@@ -63,7 +58,6 @@ a:hover {
   padding: 2% 4% 2% 4%;
   margin: 10px auto;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
-
 }
 
 

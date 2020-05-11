@@ -1,6 +1,6 @@
 section {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 #intro {
@@ -12,18 +12,22 @@ section {
 }
 
 #experiences {
-
+  background-color: rgba(250,250,250,0.8);
 
 }
+
 #education {
 
 }
+
 #skills {
 
 }
+
 #about-me {
 
 }
+
 #interests {
 
 }

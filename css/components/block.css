@@ -9,10 +9,12 @@
   height: 200px;
   border-radius: 10%;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.block p{
+.block p {
   text-align: center;
-  padding: 70px 0;
   font-weight: bold;
 }
 
