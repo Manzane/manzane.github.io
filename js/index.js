@@ -3,18 +3,7 @@
 
 const nav = document.querySelector("nav");
 const navUl = document.querySelector("nav ul");
-const menu = document.querySelector(".menu h4");
-console.log(menu);
-// console.log(nav);
-// if (nav) {
-//   const toggleNav = () => {
-
-//   }
-//   toggleNav();
-// }
-// console.log(window);
-
-window.onscroll = function() {scrollFunction()};
+const menu = document.querySelector(".menu i");
 
 function scrollFunction() {
   // console.log("je suis dans la fonction");
@@ -34,22 +23,5 @@ const toggleNavbar = () => {
   }
 }
 
+window.onscroll = function() {scrollFunction()};
 toggleNavbar ();
-
-
-// (window).on('scroll', function(){
-//            if((window).scrollTop()){
-//             nav.addClass('white');
-//             // $('nav img').attr('src','images/martin-logo.png');
-//            }
-//            else
-//            {
-//             nav.removeClass('white');
-//             // $('nav img').attr('src','images/martin-logo-blanc.png');
-//            }
-//         })
-        // $(document).ready(function(){
-        //     $(".menu h4").click(function(){
-        //       $("nav ul").toggleClass("active")
-        //     })
-        // })
