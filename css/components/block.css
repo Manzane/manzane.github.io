@@ -71,6 +71,11 @@
   grid-gap: 16px;
 
 }
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
 
 
 @media(max-width: 960px) {
@@ -79,6 +84,9 @@
   }
   .blocks-hobbies {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .skills {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -89,6 +97,9 @@
   .blocks-education {
     grid-template-columns: 1fr;
   }
+  .skills {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media(max-width: 540px) {
@@ -97,6 +108,9 @@
   }
   .blocks-hobbies {
     grid-template-columns: 1fr 1fr;
+  }
+  .skills {
+    grid-template-columns: 1fr;
   }
 
 }
