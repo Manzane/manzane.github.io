@@ -1,0 +1,30 @@
+.highlighted-1 {
+  box-shadow: inset 0px -6px 0px #f78cb3;
+  -webkit-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  font-size: 16px;
+}
+
+
+.highlighted-2 {
+  box-shadow: inset 0px -6px 0px rgb(124,207,234);
+  -webkit-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  font-size: 16px;
+
+}
+
+.highlighted-3 {
+  box-shadow: inset 0px -6px 0px #86f6ab;
+  -webkit-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  font-size: 16px;
+
+}
+
+.highlighted-4 {
+  box-shadow: inset 0px -6px 0px rgb(255,206,83);
+  -webkit-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  font-size: 16px;
+}

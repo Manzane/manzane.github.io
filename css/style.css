@@ -8,11 +8,12 @@
 @import url("components/card.css");
 @import url("components/footer.css");
 @import url("components/navbar.css");
+@import url("components/hobbies.css");
 
 body {
   background-color: rgba(200,200,200,0.2);
   font-family: 'Montserrat', sans-serif;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,0,0,0.9);
   font-size: 1em;
 }
 
@@ -29,6 +30,7 @@ h1 {
 
 h2 {
   color: #354370;
+  /*rgba(0,0,0,0.7)*/
   font-size: 2em;
   margin: 0;
   text-align: left;

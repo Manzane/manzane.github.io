@@ -25,11 +25,10 @@
 }
 
 .block-hobby img {
-  width: 100px;
+  width: 80px;
   /*object-fit: cover;*/
 }
 .block-hobby p {
-  color: grey;
   text-align: center;
   font-weight: bold;
 }
