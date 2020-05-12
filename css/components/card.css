@@ -9,11 +9,13 @@
   /*justify-content: center;*/
   text-align: left;
   border-radius: 2%;
+  /*padding-bottom: 20px;*/
+  margin-bottom: 20px;
 }
 
 .card-product img {
   height: 100%;
-  width: 120px;
+  width: 160px;
   object-fit: cover;
 }
 
