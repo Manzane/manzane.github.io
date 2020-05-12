@@ -4,6 +4,12 @@
   grid-gap: 16px;
 
 }
+.blocks-hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+
+}
 .block {
   width: 200px;
   height: 200px;
@@ -14,6 +20,16 @@
   align-items: center;
 }
 .block p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.block-hobby img {
+  width: 100px;
+  /*object-fit: cover;*/
+}
+.block-hobby p {
+  color: grey;
   text-align: center;
   font-weight: bold;
 }
@@ -62,6 +78,9 @@
   .blocks {
     grid-template-columns: 1fr 1fr;
   }
+  .blocks-hobbies {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @media(max-width: 720px) {
@@ -76,6 +95,9 @@
 @media(max-width: 540px) {
   .blocks, .blocks-education {
     grid-template-columns: 1fr;
+  }
+  .blocks-hobbies {
+    grid-template-columns: 1fr 1fr;
   }
 
 }
