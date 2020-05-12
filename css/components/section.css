@@ -21,13 +21,14 @@ section {
 }
 
 #skills {
-
+  background-color: rgba(250,250,250,0.8);
 }
 
 #about-me {
-
+  background-color: rgba(250,250,250,0.8);
 }
 
 #interests {
+  background-color: rgba(250,250,250,0.8);
   text-align: center;
 }

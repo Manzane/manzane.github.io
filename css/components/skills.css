@@ -1,3 +1,7 @@
+.skills{
+  padding-left: 30px;
+  padding-right: 10px;
+}
 .skillbar {
   position: relative;
   display: block;
@@ -23,17 +27,17 @@
 
 .skillbar-bar-success {
   height: 7px;
-  background: #5cb85c;
+  background: #86f6ab;
 }
 
 .skillbar-bar-medium {
   height: 7px;
-  background: #5bc0de;
+  background: #98dedb;
 }
 
 .skillbar-bar-final {
   height: 7px;
-  background: #ffdc63;
+  background: #fdf06c;
 }
 
 .skillbar-title {
@@ -57,4 +61,5 @@
   font-weight: 700;
   font-size: 18px;
   padding-bottom: 30px;
+  /*text-align: center;*/
 }
