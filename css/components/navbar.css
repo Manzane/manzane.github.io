@@ -10,7 +10,7 @@
 
 nav.white {
   background: white;
-  height: 60px;
+  height: 50px;
   z-index: 1;
   border-bottom: 1px solid #cecece;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
@@ -58,7 +58,7 @@ nav ul li a {
 
 nav ul li a.contact  {
   line-height: 50px;
-  color: #000;
+  color: rgba(0,0,0,0.8);
   background: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -71,7 +71,7 @@ nav ul li a.contact  {
 }
 
 nav.white ul li a {
-  color: #000;
+  color: rgba(0,0,0,0.8);
   font-size: 16px;
   font-weight: 500;
   line-height: 50px;
@@ -82,7 +82,7 @@ nav.white ul li a {
 
 nav.white ul li a.contact {
   color: #fff;
-  background: #000;
+  background: rgba(0,0,0,0.8);
   font-size: 16px;
   font-weight: 600;
   line-height: 50px;
@@ -93,12 +93,12 @@ nav.white ul li a.contact {
 
 nav ul li a.active,
 nav ul li a:hover {
-  color: #000;
+  color: rgba(0,0,0,0.8);
   background: #fff;
   text-decoration: none;
   border-radius: 5px;
  /* color: #fff;
-  background: #000;
+  background: rgba(0,0,0,0.8);
   opacity: 0.8;
   text-decoration: none;
   border-radius: 5px;*/
@@ -110,7 +110,7 @@ nav ul li a:hover {
 nav.white ul li a.active,
 nav.white ul li a:hover {
   color: #fff;
-  background: #000;
+  background: rgba(0,0,0,0.8);
   opacity: 0.8;
   text-decoration: none;
   border-radius: 5px;
@@ -144,7 +144,7 @@ nav.white ul li a:hover {
   .responsive-bar .menu i {
     font-size: 2.5em;
     float: right;
-    color: #000;
+    color: rgba(0,0,0,0.8);
     margin: 0;
     padding: 0;
     line-height: 50px;
@@ -187,14 +187,14 @@ nav.white ul li a:hover {
     /*padding: 0;*/
     width: 100%;
     text-align: center;
-    color: #000;
+    color: rgba(0,0,0,0.8);
     line-height: 30px !important;
   }
 
   nav ul li a.active,
   nav ul li a:hover {
   color: #fff;
-  background: #000;
+  background: rgba(0,0,0,0.8);
   opacity: 0.8;
   text-decoration: none;
   border-radius: 5px;
@@ -202,7 +202,7 @@ nav.white ul li a:hover {
 }
   nav ul li a.contact {
     color: #fff;
-    background: #000;
+    background: rgba(0,0,0,0.8);
     border-radius: 10px;
   }
 

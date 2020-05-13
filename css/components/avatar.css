@@ -7,3 +7,14 @@
   padding: 40px;
   margin: 10px;
 }
+
+@media(max-width: 960px) {
+  #avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media(max-width: 540px) {
+
+}
