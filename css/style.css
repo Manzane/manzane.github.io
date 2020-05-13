@@ -10,6 +10,7 @@
 @import url("components/navbar.css");
 @import url("components/hobbies.css");
 @import url("components/skills.css");
+@import url("components/aboutme.css");
 
 
 body {
@@ -40,6 +41,7 @@ h2 {
 }
 p {
   color: rgba(0,0,0,0.9);
+  line-height: 1.4
 }
 
 h2#description {
