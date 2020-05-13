@@ -20,6 +20,7 @@
   align-items: center;
 }
 .block p {
+  color: white;
   text-align: center;
   font-weight: bold;
 }
