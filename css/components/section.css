@@ -3,41 +3,9 @@ section {
   padding-bottom: 40px;
 }
 
-#intro {
-  width: 65%;
-  color: white;
-}
-
-#intro  p {
-    color:white;
-}
-
-#core-competences {
-  background-color: rgba(250,250,250,0.8);
-}
-
-#experiences {
-
-
-}
-
-#education {
-
-}
 
 #skills {
   background-color: rgba(250,250,250,0.8);
-}
-
-#about-me {
-  background-color: rgba(250,250,250,0.8);
-}
-
-#about-me i {
-  font-size: 1.5em;
-}
-.about-me {
-  width: 65%;
 }
 
 #interests {

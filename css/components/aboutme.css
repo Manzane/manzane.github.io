@@ -22,8 +22,12 @@
   color: rgba(0,0,0,.7);
 }
 
+#core-competences {
+  background-color: rgba(250,250,250,0.8);
+}
+
+
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
   .about-me {
   width: 100%;
   }

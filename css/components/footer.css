@@ -6,16 +6,9 @@ footer {
 
 }
 
-footer a{
-  color: white;
-  font-size: 2em;
-}
-
-footer h2{
-  font-size: 1.5em;
-}
 
 footer p {
   text-align: center;
   color: white;
+  font-size: 0.75em;
 }
