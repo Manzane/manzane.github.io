@@ -11,6 +11,7 @@
   margin-bottom: 40px;
   margin-left: 20px;
   margin-right: 20px;
+  position:relative;
 
 }
 
@@ -52,4 +53,36 @@
 
 .card-product-infos .company {
   padding-bottom: 20px;
+}
+
+
+@media (max-width: 960px) {
+  .card-product-infos .category {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  .card-product img {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 720px) {
+  .card-product-infos .category {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  .card-product img {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 540px) {
+  .card-product-infos .category {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  .card-product img {
+    padding-top: 20px;
+  }
 }
