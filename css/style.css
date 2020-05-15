@@ -3,7 +3,6 @@
 @import url("components/banner.css");
 @import url("components/flexbox.css");
 @import url("components/block.css");
-@import url("components/section.css");
 @import url("components/avatar.css");
 @import url("components/card.css");
 @import url("components/footer.css");
@@ -11,6 +10,7 @@
 @import url("components/hobbies.css");
 @import url("components/skills.css");
 @import url("components/aboutme.css");
+@import url("components/contact.css");
 
 
 body {
@@ -23,7 +23,6 @@ body {
 
 h1, h2 {
   font-family: 'Varela Round', sans-serif;
-  /*font-weight: bold;*/
 }
 
 h1 {
@@ -44,13 +43,6 @@ p {
   line-height: 1.4
 }
 
-h2#description {
- font-size: 1em;
- font-weight: bold;
- color: rgba(0,0,0,0.8);
-}
-
-
 a {
   color: #354370;
   text-decoration: none;
@@ -60,35 +52,7 @@ a:hover {
   text-decoration: none;
 }
 
-
-
-.card-white {
-  background-color: rgba(250,250,250,0.9);
-  padding: 2% 4% 2% 4%;
-  margin: 10px auto;
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+section {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
-
-
-
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 5px;
-}
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
-
-
-
-/*#first-block {
-  display: flex;
-}
-
-#description {
-  display: flex;
-  flex-direction: column;
-}*/
-

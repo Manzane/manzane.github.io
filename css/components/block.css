@@ -1,7 +1,6 @@
 .blocks {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
   grid-gap: 12px;
 
 }
@@ -14,8 +13,6 @@
 .block {
   width: 150px;
   height: 150px;
-/*  width: 200px;
-  height: 200px;*/
   border-radius: 10%;
   align-items: center;
   display: flex;
@@ -30,8 +27,8 @@
 
 .block-hobby img {
   width: 80px;
-  /*object-fit: cover;*/
 }
+
 .block-hobby p {
   text-align: center;
   font-weight: bold;

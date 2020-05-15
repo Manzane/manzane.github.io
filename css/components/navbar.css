@@ -4,7 +4,6 @@
   left: 0;
   width: 100%;
   height: 100px;
-  /*padding: 10px 100px;*/
   transition: .5S;
 }
 
@@ -58,11 +57,10 @@ nav ul li a {
 
 nav ul li a.contact  {
   line-height: 50px;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,0,0,0.7);
   background: #fff;
   font-size: 16px;
   font-weight: 400;
-/*  padding: 5px 15px;*/
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
@@ -82,12 +80,11 @@ nav.white ul li a {
 
 nav.white ul li a.contact {
   color: #fff;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.7);
   font-size: 16px;
   font-weight: 600;
   line-height: 50px;
   border-radius: 10px;
-  /*padding: 5px 15px;*/
   transition: .5S;
 }
 
@@ -97,12 +94,6 @@ nav ul li a:hover {
   background: #fff;
   text-decoration: none;
   border-radius: 5px;
- /* color: #fff;
-  background: rgba(0,0,0,0.8);
-  opacity: 0.8;
-  text-decoration: none;
-  border-radius: 5px;*/
-
 }
 
 
@@ -149,8 +140,6 @@ nav.white ul li a:hover {
     padding: 0;
     line-height: 50px;
     cursor: pointer;
-    /*z-index: auto;*/
-    /*text-transform: uppercase;*/
   }
 
   nav,
@@ -184,7 +173,6 @@ nav.white ul li a:hover {
   }
   nav ul li a {
     display: block;
-    /*padding: 0;*/
     width: 100%;
     text-align: center;
     color: rgba(0,0,0,0.8);
