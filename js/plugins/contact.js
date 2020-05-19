@@ -1,8 +1,3 @@
-
-
-
-
-
 const addContactModal = document.getElementById('add-modal');
 const startAddContactButton = document.querySelector('.contact');
 const backdrop = document.getElementById('backdrop');

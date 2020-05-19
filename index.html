@@ -13,17 +13,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Destination DevMarketing</title>
+  <title>Marie Blanchet - Destination DevMarketing</title>
   <meta name="description" content="Profil de Marie Blanchet: Destination DevMarketing. Développement Web et Marketing Digital.">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <!-- Facebook Open Graph data -->
+  <meta property="og:title" content="Destination DevMarketing" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="www.marie-blanchet.com" />
+  <meta property="og:image" content="www.marie-blanchet/images/cover.jpg" />
+  <meta property="og:description" content="Profil de Marie Blanchet: Destination DevMarketing. Développement Web et Marketing Digital." />
+  <meta property="og:site_name" content="Marie Blanchet - Destination DevMarketing" />
 </head>
 <body>
   <header>
     <div class="responsive-bar">
       <div class="logo">
-         <!-- <img src="images/"> -->
+         <!-- <img src="images/logo-MB.png"> -->
       </div>
       <div class="menu">
 <!--           <h4>Menu</h4> -->
@@ -32,14 +40,14 @@
     </div>
     <nav>
       <div class="logo">
-        <!-- <img src="images/"> -->
+        <!-- <img src="images/logo-MB.png"> -->
       </div>
       <ul >
         <li><a href="#experiences">Expériences</a></li>
         <li><a href="#skills">Compétences</a></li>
         <li><a href="#education">Formations</a></li>
         <li><a href="#about-me">À propos</a></li>
-       <li><a href="https://www.linkedin.com/in/marie-blanchet/" class="contact" target="_blank">Contact via <i class="fab fa-linkedin-in"></i></a></li>
+       <li><a href="#" class="contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -461,30 +469,36 @@
         </div>
     </div>
   </section>
-<!--   <section id="contact">
+  <section id="contact">
     <div id="backdrop"></div>
     <div class="modal card" id="add-modal">
       <div class="modal__content">
         <h2>Contact</h2>
           <div id="form">
-          <label for="name">Nom</label>
-          <input type="text" name="name" class="name" tabindex=1 />
-          <label for="email">Email</label>
-          <input type="text" name="email" class="email" tabindex=2 />
-          <label for="message">Message</label>
-          <textarea class="message" tabindex=4 name="message"></textarea>
-          <div class="modal__actions">
-          <button type="submit" class="btn-submit">Envoyer</button>
-          </div>
+            <form id="ajaxForm" action="https://getform.io/f/a8a5e3ef-64d3-4b8a-87e5-e0c8c06065f0" method="POST">
+              <label for="name">Nom</label>
+              <input type="text" name="name" class="name"/>
+              <label for="email">Email</label>
+              <input type="text" name="email" class="email"/>
+              <label for="message">Message</label>
+              <textarea class="message" name="message"></textarea>
+              <div class="success">Message envoyé, merci !</div>
+              <div class="modal__actions">
+              <button type="submit" class="btn-submit">Envoyer</button>
+            </div>
+            </form>
           </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <footer>
     <div>
       <p>Créé & Codé avec <i class="fas fa-sun"></i> par Marie Blanchet</p>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/index.js"></script>
+
 </body>
 </html>

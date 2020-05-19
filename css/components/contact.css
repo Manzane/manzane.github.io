@@ -78,7 +78,7 @@ input:focus {
   flex-direction: column;
 }
 
-#form {
+form {
   display:flex;
   flex-direction: column;
 }
@@ -88,6 +88,17 @@ textarea {
   max-width: 100%;
   resize: none;
 }
+
+.success {
+  display: none;
+  background: #E1F8ED;
+  padding: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.success.is-active {
+    display: block;
+  }
 
 @media (min-width: 768px) {
   .modal {
