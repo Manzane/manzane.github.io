@@ -12,6 +12,10 @@
 @import url("components/aboutme.css");
 @import url("components/contact.css");
 
+/**{
+  margin:0;
+  padding: 0;
+}*/
 
 body {
   background-color: rgba(200,200,200,0.2);

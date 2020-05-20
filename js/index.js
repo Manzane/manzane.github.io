@@ -111,4 +111,3 @@ $("#ajaxForm").submit(function(e){
      alert('Une erreur s\'est produite, merci d\'essayer plus tard.')
   });
 });
-
