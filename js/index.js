@@ -1,6 +1,7 @@
 const nav = document.querySelector("nav");
 const navUl = document.querySelector("nav ul");
 const menu = document.querySelector(".menu i");
+const navLis = navUl.querySelectorAll("li a");
 
 function scrollFunction() {
   if (window.pageYOffset == 0) {
@@ -17,9 +18,18 @@ const toggleNavbar = () => {
     });
   }
 }
+const closeNavbar = () => {
+  navLis.forEach((element) => {
+    element.addEventListener("click", (event) => {
+      navUl.classList.remove("active");
+    });
+  });
+}
+
 
 window.onscroll = function() {scrollFunction()};
 toggleNavbar ();
+closeNavbar();
 
 
 
