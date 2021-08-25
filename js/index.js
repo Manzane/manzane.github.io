@@ -34,7 +34,7 @@ closeNavbar();
 
 
 const addContactModal = document.getElementById('add-modal');
-const startAddContactButton = document.querySelector('.contact');
+// const startAddContactButton = document.querySelector('.contact');
 const backdrop = document.getElementById('backdrop');
 const confirmContactButton = document.querySelector('.btn-submit');
 const userInputs = addContactModal.querySelectorAll('input');
@@ -94,7 +94,7 @@ const addContactHandler = () => {
 };
 
 
-startAddContactButton.addEventListener('click', showContactModal);
+// startAddContactButton.addEventListener('click', showContactModal);
 backdrop.addEventListener('click', backdropClickHandler);
 // cancelAddContactButton.addEventListener('click', cancelAddContactHandler);
 // confirmContactButton.addEventListener('click', addContactHandler);
